@@ -19,7 +19,7 @@ size_t knuth_sequence(size_t size)
 }
 
 /**
- * shell_sort - sorts an array using the Shell sort algorithm, using the Knuth sequence
+ * shell_sort - sorts using the Shell sort algorithm, using the Knuth sequence
  * @array: array
  * @size: size
  * Return: void
