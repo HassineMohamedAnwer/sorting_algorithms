@@ -28,9 +28,10 @@ void selection_sort(int *array, size_t size)
 
 		if (jMin != i)
 		{
-			x = array[i];
-			array[i] = array[jMin];
-			array[jMin] = x;
+			x = array[jMin];
+			array[jMin] = array[i];
+			array[i] = x;
+			print_array(array, size);
 		}
 	}
 }
